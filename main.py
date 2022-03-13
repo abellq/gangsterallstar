@@ -37,3 +37,5 @@ if __name__ == '__main__':
         response = requests.put("https://allstarsmintapi.azurewebsites.net/Submit", verify=False, headers=headers,
                                 data=json.dumps(body))
         print("Request whether successful:" + response.text)
+
+print("All task is finnish!")
